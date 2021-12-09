@@ -1,0 +1,241 @@
+
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather';
+}
+
+h1{
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto ;
+    font-family: 'Sacramento', 'monospace';
+}
+
+h2{
+    font-family: 'Montserrat', 'Courier New', Courier;
+    font-size: 1.5rem;
+}
+.skill {
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    margin: 50px;
+}
+.mountain {
+    width: 50%;
+}
+
+.info_p {
+    width: 50%;
+    text-align: center;
+    margin: 50px auto;
+    font-family: 'Montserrat', monospace;
+}
+.top_container {
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+    
+}
+
+.middle_container {
+    
+    width: auto;
+}
+
+.bottom_container {
+    width: 100%;
+    margin: auto;
+    background-color: #e4f9f5;
+    padding-bottom: 50px;
+}
+
+.bottom_cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+
+}
+
+.upper_cloud { 
+    position: absolute;
+    right: 300px;
+    top: 50px;
+
+}
+
+
+
+/* Three of containes are above */ 
+/*Skill and etc */
+
+
+.tools {
+    margin: auto;
+    width: 55%;
+    height: 10rem;
+}
+
+.python_d{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    float: left;
+    margin-left: 25px;
+}
+.ds_d {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    float: left;
+}
+
+.html_d {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    float: left;
+}
+.css_d{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    float:left;
+}
+
+.python_i{
+    height: 100px;
+    width: 100px;
+}
+.data_i {
+    height: 100px;
+    width: 100px;
+}
+
+.html_i {
+    height: 100px;
+    width: 100px;
+}
+
+.css_i{
+    height: 100px;
+    width: 100px;
+}
+
+
+.info {
+    width: 200px;
+    height: 200px;
+}
+
+
+/*      Break of page             */
+
+hr {
+    width: 4%;
+    border: dotted #b6b6b6 10px ;
+    border-bottom: none;
+    margin: 100px auto ;
+}
+/*Nav bar*/
+li ,a {
+    font-family: "Montserrant", monospace;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #e4f9f5;
+    text-decoration: none;
+}
+
+header{
+    text-align: center;
+    display: flex;
+    background-color: #616161;
+    justify-content:center;
+    align-items: center;
+    padding: 30 10%;
+    width: 100%;
+    position: fixed;
+}
+.nav {
+    width: 100%;
+    list-style: none;
+}
+.nav li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav li a {
+    transition: all 0.3s ease 0;
+}
+
+.nav li a:hover {
+    color:#08ecd9;
+}
+
+html {
+    scroll-behavior:smooth;
+}
+
+/* Contact us */ 
+
+.email_i {
+    width: 50px;
+    height: 50px;
+}
+.linkedin_i{
+    width: 50px;
+    height: 50px;
+}
+
+.insta_i {
+    width: 50px;
+    height: 50px;
+}
+
+.social_i {
+    width: 50px;
+    height: 50px;
+}
+
+
+.email{
+    height: 50px;
+    width: 50px;
+    float: left;
+    position: relative;
+    
+}
+.linked_in{
+    height: 50px;
+    width: 50px;
+    float: left;
+    position: relative;
+    padding-left: 50px;
+}
+.insta{
+    height: 50px;
+    width: 50px;
+    float: left;
+    position: relative;
+    padding-left: 50px;
+}
+.skill2 {
+    padding-top: 50px;
+    font-family: 'Montserrat', 'Courier New', Courier;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+
+.social_media {
+    width: 50%;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+footer{
+    background-color: white;
+    height: 10px;
+}
